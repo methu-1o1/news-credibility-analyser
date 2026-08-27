@@ -1,16 +1,7 @@
-# Python virtual environment
 .venv/
-
-# Python cache
 __pycache__/
-*.py[cod]
-
-# Environment/secrets
-.env
-
-# IDE
-.cursor/
-
-# OS
-.DS_Store
-Thumbs.db 
+*.pyc
+.pytest_cache/ 
+.cursor/ 
+data/raw/
+data/processed/*.csv 

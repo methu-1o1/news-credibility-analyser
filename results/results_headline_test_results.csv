@@ -1,0 +1,15 @@
+headline,prediction,fake_probability,real_probability,source
+"North Korea boosts support for Russia to include drone operators, Ukraine says",REAL,0.2427,0.7573,CNN
+"Georgia GOP candidate and immigration hardliner faces an immigration scandal of his own",REAL,0.0942,0.9058,CNN
+"'It's Bonkers': Jennifer Hegseth’s Hands-On Role in Her Husband's Pentagon",REAL,0.0842,0.9158,New York Times
+"A Masked Man Was Scaring Philadelphians. Then He Picked the Wrong Woman.",REAL,0.3494,0.6506,New York Times
+"Study Shows Benefits Of Skin-To-Skin Contact Between New Players, Coaches",REAL,0.0915,0.9085,The Onion
+"Shirtless Biden Washes Trans Am In White House Driveway",REAL,0.1854,0.8146,The Onion
+"Local Music Venue An Absolute Minefield Of Ex-Boyfriends",REAL,0.1768,0.8232,The Onion  
+
+input,expected_category,prediction,real_probability,fake_probability,confidence_level,rejected
+"hello","INVALID","N/A","N/A","N/A","N/A","YES"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!","INVALID","N/A","N/A","N/A","N/A","YES"
+"Earthquake hits Japan","REAL","REAL",0.8682,0.1318,"HIGH","NO"
+"North Korea boosts support for Russia to include drone operators, Ukraine says","REAL","REAL",0.7573,0.2427,"MEDIUM","NO"
+"Shirtless Biden Washes Trans Am In White House Driveway","FAKE/SATIRE","REAL",0.8146,0.1854,"HIGH","NO"   

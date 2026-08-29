@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 
 # Paths
-INPUT_PATH = Path("data/raw/RealFakeNews.csv")
+INPUT_PATH = Path("data/raw/RealFakeNews_augmented.csv") 
 OUTPUT_DIR = Path("data/processed")
 OUTPUT_PATH = OUTPUT_DIR / "cleaned_news.csv"
 

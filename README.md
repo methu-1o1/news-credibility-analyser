@@ -94,6 +94,8 @@ A random sample of 3,000 rows was taken from each of the three additional datase
 
 - **The linguistic analysis uses a fixed keyword list.** Sensational and emotional word detection relies on predefined word lists, which will miss synonyms, sarcasm, or non-English text, and may occasionally flag legitimate journalistic language (e.g. "the disaster left ten dead" is a normal real-news sentence but contains an "emotional" keyword).
 
+- **The model can disagree with itself on the same real event.** Two credible headlines describing the same real story were tested: a CNN headline, "Trump says U.S. reaches deal with Venezuela to control 65 billion barrels of country's oil reserves," and a New York Times headline on the same event, "Trump Says U.S. Has Deal for Control of a Large Share of Venezuela's Oil." The CNN headline was assessed as "Likely Reliable" (74.58% confidence), while the NYT headline -- reporting the identical event -- was assessed as "Uncertain - Verify" (58.14% confidence). Both headlines are genuinely reliable; the difference in outcome came from wording alone (e.g. a specific number vs. a vaguer phrase), not from any actual difference in credibility. This is a clear demonstration that the model scores writing style and word patterns, not the truth or reliability of the underlying story.
+
 - **This tool is a decision-support aid, not a fact-checker.** It cannot verify whether specific claims within an article are true. Users should always cross-check important information with trusted, independent sources.
 
 ## Responsible AI Discussion
